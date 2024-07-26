@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>テストブログ</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on テストブログ</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 23 Jul 2024 16:39:33 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>旅行行きました！</title>
+      <link>http://localhost:1313/posts/4/</link>
+      <pubDate>Tue, 23 Jul 2024 16:39:33 +0900</pubDate>
+      <guid>http://localhost:1313/posts/4/</guid>
+      <description>旅行行きました！</description>
+    </item>
+    <item>
+      <title>最近ハマったこと</title>
+      <link>http://localhost:1313/posts/3/</link>
+      <pubDate>Tue, 23 Jul 2024 16:39:30 +0900</pubDate>
+      <guid>http://localhost:1313/posts/3/</guid>
+      <description>最近ハマったこと</description>
+    </item>
+    <item>
+      <title>焼肉</title>
+      <link>http://localhost:1313/posts/2/</link>
+      <pubDate>Tue, 23 Jul 2024 16:39:27 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2/</guid>
+      <description>焼肉</description>
+    </item>
+    <item>
+      <title>こんにちは！</title>
+      <link>http://localhost:1313/posts/1/</link>
+      <pubDate>Tue, 23 Jul 2024 16:39:24 +0900</pubDate>
+      <guid>http://localhost:1313/posts/1/</guid>
+      <description>こんにちは！</description>
+    </item>
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Tue, 23 Jul 2024 16:39:12 +0900</pubDate>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description>初めまして! ブログ始めました！！</description>
+    </item>
+  </channel>
+</rss>
