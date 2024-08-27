@@ -1,0 +1,28 @@
+baseURL = 'http://example.org/'
+languageCode = 'ja'
+title = 'ユリのテストブログ'
+theme = 'paper'
+publishDir = 'docs'
+metaDataFormat = 'yml'
+
+[params]
+  # color style
+  color = 'linen'                           # linen, wheat, gray, light
+
+  # header social icons
+  twitter = 'https://twitter.com/'               # twitter.com/YOUR_TWITTER_ID
+  github = 'https://github.com/'                 # github.com/YOUR_GITHUB_ID
+  instagram = 'https://www.instagram.com/'           # instagram.com/YOUR_INSTAGRAM_ID
+
+  # home page profile
+  avatar = 'https://www.yuridenki.co.jp/wp/wp-content/themes/yuridenki/assets/images/common/logo-header.svg'                 # gravatar email or image url
+  name = 'ユリ'
+  bio = 'ユリです'
+
+  # misc
+  disableHLJS = true                        # disable highlight.js
+  disablePostNavigation = true              # disable post navigation
+  monoDarkIcon = false                       # show monochrome dark mode icon
+  math = true                               # enable KaTeX math typesetting globally
+
+  comments = true
