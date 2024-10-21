@@ -13,7 +13,7 @@
       <link>http://localhost:1313/post/4/</link>
       <pubDate>Mon, 21 Oct 2024 09:19:11 +0900</pubDate>
       <guid>http://localhost:1313/post/4/</guid>
-      <description>基本構文 header1 header2 header3 hoge fuga piyo hoge fuga piyo テーブルの結合 横方向 header1 header2 header3 hoge fuga piyo hoge piyo &amp;gt; fuga piyo hoge fuga hoge &amp;gt; piyo hoge fuga piyo ヘッダー１ ヘッダー２ ヘッダー３ セル1 長いセル セル2 中央寄せ 右寄せ セル3 太字 斜体 セル4 さらに 縦方向 header1 header2 header3 hoge fuga piyo hoge ^ ^ hoge fuga ^ 混合 header1 header2 header3 hoge &amp;gt; piyo hoge ^ ^ hoge ^ ^ hoge piyo ^ ^ piyo SW1の動作設定 DIP# Name Position Description 1 BOOTSEL ON Cortex-A55からブート ^ ^ OFF Cortex-A33からブート 2 3 MD BOOT ON ON 指定禁止 ^ ^ ^ OFF ON SCIFからブート(CM33, CA55) ^ ^ ^ ON OFF SDカードからブート(CA55のみ)* ^ ^ ^ OFF OFF QSPI-Flashからブート(CM33, CA55)* 4 DEBUG EN ON JTAGデバグモード ^ ^ OFF ノーマルモード </description>
+      <description>基本構文 header1 header2 header3 hoge fuga piyo hoge fuga piyo テーブルの結合 横方向 header1 header2 header3 hoge fuga piyo hoge piyo &amp;gt; fuga piyo hoge fuga hoge &amp;gt; piyo hoge fuga piyo ヘッダー１ ヘッダー２ ヘッダー３ セル1 長いセル セル2 中央寄せ 右寄せ セル3 太字 斜体 セル4 さらに 縦方向 header1 header2 header3 hoge fuga piyo hoge ^ ^ hoge fuga ^ 混合 header1 header2 header3 hoge &amp;gt; piyo hoge ^ ^ hoge ^ ^ hoge piyo ^ ^ piyo SW1の動作設定 DIP# Name Position Description 1 BOOTSEL ON Cortex-A55からブート ^ ^ OFF Cortex-A33からブート 2 3 MD BOOT ON ON 指定禁止 ^ ^ ^ OFF ON SCIFからブート(CM33, CA55) ^ ^ ^ ON OFF SDカードからブート(CA55のみ)* ^ ^ ^ OFF OFF QSPI-Flashからブート(CM33, CA55)* 4 DEBUG EN ON JTAGデバグモード ^ ^ OFF ノーマルモード № 色 値 1white #ffffff 2black #000000 3red #0000ff 4blue #ffff00 5yellow #ffff00 6green #ffff00 7orange #ffff00 8pink #ffff00 Pinout Markdown &amp;amp; HTML MIX Name Pin Pin Name 3.</description>
     </item>
     <item>
       <title>最近ハマったこと</title>
