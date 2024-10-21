@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on ユリのテストブログ</title>
+    <link>http://localhost:1313/post/</link>
+    <description>Recent content in Posts on ユリのテストブログ</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 21 Oct 2024 09:19:11 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>表組みのテスト</title>
+      <link>http://localhost:1313/post/4/</link>
+      <pubDate>Mon, 21 Oct 2024 09:19:11 +0900</pubDate>
+      <guid>http://localhost:1313/post/4/</guid>
+      <description>基本構文 header1 header2 header3 hoge fuga piyo hoge fuga piyo テーブルの結合 横方向 header1 header2 header3 hoge fuga piyo hoge piyo &amp;gt; fuga piyo hoge fuga hoge &amp;gt; piyo hoge fuga piyo ヘッダー１ ヘッダー２ ヘッダー３ セル1 長いセル セル2 中央寄せ 右寄せ セル3 太字 斜体 セル4 さらに 縦方向 header1 header2 header3 hoge fuga piyo hoge ^ ^ hoge fuga ^ 混合 header1 header2 header3 hoge &amp;gt; piyo hoge ^ ^ hoge ^ ^ hoge piyo ^ ^ piyo SW1の動作設定 DIP# Name Position Description 1 BOOTSEL ON Cortex-A55からブート ^ ^ OFF Cortex-A33からブート 2 3 MD BOOT ON ON 指定禁止 ^ ^ ^ OFF ON SCIFからブート(CM33, CA55) ^ ^ ^ ON OFF SDカードからブート(CA55のみ)* ^ ^ ^ OFF OFF QSPI-Flashからブート(CM33, CA55)* 4 DEBUG EN ON JTAGデバグモード ^ ^ OFF ノーマルモード </description>
+    </item>
+    <item>
+      <title>最近ハマったこと</title>
+      <link>http://localhost:1313/post/3/</link>
+      <pubDate>Tue, 23 Jul 2024 16:39:30 +0900</pubDate>
+      <guid>http://localhost:1313/post/3/</guid>
+      <description>ゲリラ豪雨で水たまりにハマりました。</description>
+    </item>
+    <item>
+      <title>焼肉</title>
+      <link>http://localhost:1313/post/2/</link>
+      <pubDate>Tue, 23 Jul 2024 16:39:27 +0900</pubDate>
+      <guid>http://localhost:1313/post/2/</guid>
+      <description>新横浜の慶州苑で焼肉食べました。</description>
+    </item>
+    <item>
+      <title>こんにちは！</title>
+      <link>http://localhost:1313/post/1/</link>
+      <pubDate>Tue, 23 Jul 2024 16:39:24 +0900</pubDate>
+      <guid>http://localhost:1313/post/1/</guid>
+      <description>こんチコわ～</description>
+    </item>
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/post/my-first-post/</link>
+      <pubDate>Tue, 23 Jul 2024 16:39:12 +0900</pubDate>
+      <guid>http://localhost:1313/post/my-first-post/</guid>
+      <description>初めまして! ブログ始めました！！</description>
+    </item>
+  </channel>
+</rss>
