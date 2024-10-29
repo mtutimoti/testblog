@@ -10,7 +10,7 @@ metaDataFormat = 'yml'
   color = 'linen'                           # linen, wheat, gray, light
 
   # header social icons
-  x = 'https://x.com/'               # x.com/YOUR_TWITTER_ID
+  twitter = 'https://x.com/'               # x.com/YOUR_TWITTER_ID
   github = 'https://github.com/'                 # github.com/YOUR_GITHUB_ID
   instagram = 'https://www.instagram.com/'           # instagram.com/YOUR_INSTAGRAM_ID
 
