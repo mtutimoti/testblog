@@ -26,3 +26,8 @@ metaDataFormat = 'yml'
   math = true                               # enable KaTeX math typesetting globally
 
   comments = true
+
+  [markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
