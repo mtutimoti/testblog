@@ -64,7 +64,7 @@
   
   
   
-  <meta name="description" content="基本構文 header1 header2 header3 hoge fuga piyo hoge fuga piyo テーブルの結合 横方向 header1 header2 header3 hoge fuga piyo hoge piyo &gt; fuga piyo hoge fuga hoge &gt; piyo hoge &gt; fuga &gt; &gt; piyo ヘッダー１ ヘッダー２ ヘッダー３ セル1 長いセル セル2 中央寄せ 右寄せ セル3 太字 斜体 セル4 さらに 縦方向 header1 header2 header3 hoge fuga piyo hoge ^ ^ hoge fuga ^ 混合 header1 header2 header3 hoge &gt; piyo hoge ^ ^ hoge ^ ^ hoge piyo ^ ^ piyo SW1の動作設定 DIP# Name Position Description 1 BOOTSEL ON Cortex-A55からブート ^ ^ OFF Cortex-A33からブート 2 3 MD BOOT ON ON 指定禁止 ^ ^ ^ OFF ON SCIFからブート(CM33, CA55) ^ ^ ^ ON OFF SDカードからブート(CA55のみ)* ^ ^ ^ OFF OFF QSPI-Flashからブート(CM33, CA55)* 4 DEBUG EN ON JTAGデバグモード ^ ^ OFF ノーマルモード " />
+  <meta name="description" content="基本構文 header1 header2 header3 hoge fuga piyo hoge fuga piyo テーブルの結合 横方向 header1 header2 header3 hoge fuga piyo hoge piyo &gt; fuga piyo hoge fuga hoge &gt; piyo hoge &gt; fuga &gt; &gt; piyo ヘッダー１ ヘッダー２ ヘッダー３ セル1 長いセル セル2 中央寄せ 右寄せ セル3 太字 斜体 セル4 さらに 指定なし左寄せ中央揃え右寄せ縦方向 header1 header2 header3 hoge fuga piyo hoge ^ ^ hoge fuga ^ 垂直方向の結合データ1データ2データ3混合 header1 header2 header3 hoge &gt; piyo hoge ^ ^ hoge ^ ^ hoge piyo ^ ^ piyo 6つのセルを結合データ1-3データ2-3データ3-3データ4-1データ4-2データ4-3SW1の動作設定 DIP# Name Position Description 1 BOOTSEL ON Cortex-A55からブート ^ ^ OFF Cortex-A33からブート 2 3 MD BOOT ON ON 指定禁止 ^ ^ ^ OFF ON SCIFからブート(CM33, CA55) ^ ^ ^ ON OFF SDカードからブート(CA55のみ)* ^ ^ ^ OFF OFF QSPI-Flashからブート(CM33, CA55)* 4 DEBUG EN ON JTAGデバグモード ^ ^ OFF ノーマルモード " />
   <meta name="author" content="ユリ" />
   
 
@@ -403,7 +403,16 @@
 </tr>
 </tbody>
 </table>
-<!-- raw HTML omitted -->
+
+<table border="3" width="100%">
+<tr>
+<td height="100">指定なし</td>
+<td align="left">左寄せ</td>
+<td align="center">中央揃え</td>
+<td align="right">右寄せ</td>
+</tr>
+</table>
+
 <h4 id="縦方向">縦方向</h4>
 <table>
 <thead>
@@ -431,7 +440,20 @@
 </tr>
 </tbody>
 </table>
-<!-- raw HTML omitted -->
+
+<table border="3">
+<tr>
+<td rowspan="3">垂直方向の結合</td>
+<td>データ1</td>
+</tr>
+<tr>
+<td>データ2</td>
+</tr>
+<tr>
+<td>データ3</td>
+</tr>
+</table>
+
 <h4 id="混合">混合</h4>
 <table>
 <thead>
@@ -469,7 +491,25 @@
 </tr>
 </tbody>
 </table>
-<!-- raw HTML omitted -->
+
+<table border="3">
+<tr>
+<td colspan="2" rowspan="3">6つのセルを結合</td>
+<td>データ1-3</td>
+</tr>
+<tr>
+<td>データ2-3</td>
+</tr>
+<tr>
+<td>データ3-3</td>
+</tr>
+<tr>
+<td>データ4-1</td>
+<td>データ4-2</td>
+<td>データ4-3</td>
+</tr>
+</table>
+
 <h4 id="sw1の動作設定">SW1の動作設定</h4>
 <table>
 <thead>
