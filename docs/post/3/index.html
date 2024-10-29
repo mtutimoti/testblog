@@ -55,7 +55,7 @@
   />
 
   
-  <title>最近ハマったこと - ユリのテストブログ</title>
+  <title>KakipにRvizとGazeboをインストールする - ユリのテストブログ</title>
 
   
   <meta name="theme-color" />
@@ -64,7 +64,10 @@
   
   
   
-  <meta name="description" content="ゲリラ豪雨で水たまりにハマりました。" />
+  <meta name="description" content="1. ROS2 Jazzyのインストール 1-1. 必要なリポジトリーを有効化 1-1-1. Ubuntu Universe リポジトリが有効になっていることを確認
+sudo apt install software-properties-commonsudo add-apt-repository universe 1-1-2. apt を使用して ROS 2 GPG キーを追加
+sudo apt update &amp;&amp; sudo apt install curl -ysudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o /usr/share/keyrings/ros-archive-keyring.gpg 1-1-3. リポジトリをソース リストに追加
+echo &#34;deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(. /etc/os-release &amp;&amp; echo $UBUNTU_CODENAME) main&#34; | sudo tee /etc/apt/sources.list.d/ros2.list &gt; /dev/null 1-2. 開発ツールをインストール(オプション) sudo apt update &amp;&amp; sudo apt install ros-dev-tools 1-3. ROS 2をインストール 1-3-1." />
   <meta name="author" content="ユリ" />
   
 
@@ -283,12 +286,12 @@
 
 <article>
   <header class="mb-14">
-    <h1 class="!my-0 pb-2.5">最近ハマったこと</h1>
+    <h1 class="!my-0 pb-2.5">KakipにRvizとGazeboをインストールする</h1>
 
     
     <div class="text-xs antialiased opacity-60">
       
-      <time>Jul 23, 2024</time>
+      <time>Oct 29, 2024</time>
       
       
       
@@ -297,8 +300,38 @@
     
   </header>
 
-  <section><p>ゲリラ豪雨で水たまりにハマりました。</p>
-</section>
+  <section><h3 id="1-ros2-jazzyのインストール">1. ROS2 Jazzyのインストール</h3>
+<h4 id="1-1-必要なリポジトリーを有効化">1-1. 必要なリポジトリーを有効化</h4>
+<p>1-1-1. Ubuntu Universe リポジトリが有効になっていることを確認</p>
+<pre tabindex="0"><code>sudo apt install software-properties-common
+sudo add-apt-repository universe
+</code></pre><p>1-1-2. apt を使用して ROS 2 GPG キーを追加</p>
+<pre tabindex="0"><code>sudo apt update &amp;&amp; sudo apt install curl -y
+sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o /usr/share/keyrings/ros-archive-keyring.gpg
+</code></pre><p>1-1-3. リポジトリをソース リストに追加</p>
+<pre tabindex="0"><code>echo &#34;deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(. /etc/os-release &amp;&amp; echo $UBUNTU_CODENAME) main&#34; | sudo tee /etc/apt/sources.list.d/ros2.list &gt; /dev/null
+</code></pre><h4 id="1-2-開発ツールをインストールオプション">1-2. 開発ツールをインストール(オプション)</h4>
+<pre tabindex="0"><code>sudo apt update &amp;&amp; sudo apt install ros-dev-tools
+</code></pre><h4 id="1-3-ros-2をインストール">1-3. ROS 2をインストール</h4>
+<p>1-3-1. システムが最新であることを確認</p>
+<pre tabindex="0"><code>sudo apt update
+sudo apt upgrade
+</code></pre><p>1-3-2. デスクトップのインストール(ROS、RViz、デモ、チュートリアル)</p>
+<pre tabindex="0"><code>sudo apt install ros-jazzy-desktop
+</code></pre><p>1-3-3. ROS ベースのインストール(通信ライブラリ、メッセージ パッケージ、コマンド ライン ツール)</p>
+<pre tabindex="0"><code>sudo apt install ros-jazzy-ros-base
+</code></pre><h3 id="2-gazebo-harmonicのインストール">2. Gazebo Harmonicのインストール</h3>
+<h4 id="2-1-必要なツールをインストール">2-1. 必要なツールをインストール</h4>
+<pre tabindex="0"><code>sudo apt-get update
+sudo apt-get install curl lsb-release gnupg
+</code></pre><h4 id="2-2-ionicバイナリをインストール">2-2. Ionicバイナリをインストール</h4>
+<pre tabindex="0"><code>sudo curl https://packages.osrfoundation.org/gazebo.gpg --output /usr/share/keyrings/pkgs-osrf-archive-keyring.gpg
+sudo apt-get update
+sudo apt-get install gz-harmonic
+</code></pre><h3 id="3-ros2-jazzy用gazeboパッケージをインストール">3. ROS2 Jazzy用Gazeboパッケージをインストール</h3>
+<h4 id="3-1-ros-インストールに推奨される-gazebo-ライブラリをインストール">3-1. ROS インストールに推奨される Gazebo ライブラリをインストール</h4>
+<pre tabindex="0"><code>sudo apt-get install ros-jazzy-ros-gz
+</code></pre></section>
 
   
   
